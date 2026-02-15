@@ -7,7 +7,7 @@ import WaterMark from '../../component/WaterMark'
 export default function Home() {
     return (
         <>
-            <div className="grid grid-cols-5 grid-rows-5 gap-1 w-full h-screen bg-black">
+            <div className="grid grid-cols-5 grid-rows-5 gap-1 w-full bg-black">
                 <Header />
                 <Body />
                 <Footer />
