@@ -1,0 +1,14 @@
+{
+  "Tech": [
+{
+    "name": "Next.js",
+    "icon": "/next.svg",
+    "color": "bg-gradient-to-r from-white to-slate-700"
+},
+{
+    "name": "React",
+    "icon": "",
+    "color": "bg-gradient-to-r from-white to-sky-700"
+}
+]
+}
