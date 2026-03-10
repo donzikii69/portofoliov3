@@ -1,9 +1,11 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 
 export default function Header() {
+    const [date, setDate] = useState('')
+
     const email = 'zikranasnawi69@gmail.com'
     const handleEmailClick = () => {
 
@@ -20,12 +22,16 @@ export default function Header() {
         window.open(url, '_blank');
     }
 
+    useEffect(() => {
+        setDate(new Date().toLocaleDateString())
+    }, [])
+
     return (
         <div className="text-center justify-center items-center col-span-5 bg-[#fff6e3] h-auto py-2">
             <div className='w-full justify-center items-center'>
                 <hr className='mx-2 border-t-2' />
                 <div className='w-full justify-between items-center grid grid-cols-3 gap-2 px-2'>
-                    <p className=''>{new Date().toLocaleDateString()}</p>
+                    <p className='text-start pl-4 font-bold'>{date}</p>
                     <p className='font-bold md:text-3xl text-sm'>Asrari Zikran</p>
                     <div className='w-full justify-end items-end flex'>
                         <div className='bg-red-500 w-30 border-2'>

@@ -7,7 +7,7 @@ import WaterMark from '../../component/WaterMark'
 export default function Home() {
     return (
         <>
-            <div className="grid grid-cols-5 grid-rows-5 gap-1 w-full bg-black">
+            <div className="flex flex-col md:grid md:grid-cols-5 md:grid-rows-5 gap-1 w-full bg-black">
                 <Header />
                 <Body />
                 <Footer />
@@ -16,6 +16,3 @@ export default function Home() {
         </>
     )
 }
-
-
-
