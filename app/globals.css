@@ -6,6 +6,12 @@
 }
 
 @theme inline {
+  /* Breakpoints: sm (320px+), md (600px+), lg (1025px+), xl (1440px+) */
+  --breakpoint-sm: 320px;
+  --breakpoint-md: 600px;
+  --breakpoint-lg: 1025px;
+  --breakpoint-xl: 1440px;
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);

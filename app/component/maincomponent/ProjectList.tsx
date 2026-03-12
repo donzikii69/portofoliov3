@@ -17,11 +17,11 @@ export default function ProjectList({ detail }: Props) {
 
   return (
     <>
-      <div className='grid grid-cols-2 gap-4 md:px-6'>
+      <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 md:px-6'>
         {data && data.map((item: any) => (
           <div key={item.id} className='items-center justify-center'>
             <div className='p-2'>
-              <img src={item.display} alt={item.title} className='h-50 w-60 md:h-130 md:w-140 rounded-3xl' />
+              <img src={item.display} alt={item.title} className='h-50 w-60 lg:h-100 lg:w-120 rounded-3xl' />
             </div>
             <div className='px-2'>
               <p className='font-semibold text-lg md:text-2xl px-2 md:px-4' style={mogra.style}>{item.title}</p>

@@ -19,10 +19,10 @@ const bitcount = Bitcount_Single({
 export default function Intro() {
     return (
         <>
-            <div className='w-full justify-center items-center flex md:pt-8'>
+            <div className='w-full justify-center items-center flex lg:pt-8 pb-2 lg:pb-6 '>
                 <img src="/mainlogo.png" alt="donzikii" className='h-20 w-21 md:h-60 md:w-61 rounded-full' />
             </div>
-            <div className='w-full text-start md:text-3xl'>
+            <div className='w-full text-start md:text-3xl xl:pl-40'>
                 Hi, I'm <b>Zikran</b>, &nbsp;
                 <TypeAnimation
                     sequence={[
@@ -45,7 +45,7 @@ export default function Intro() {
             <div className='w-full text-center md:text-9xl text-4xl font-bold' style={audiowide.style}>
                 DEVELOPER
             </div>
-            <div className='w-full text-end md:text-3xl md:pr-14'>
+            <div className='w-full text-end md:text-3xl md:pr-14 xl:pr-50'>
                 <TypeAnimation
                     sequence={[
                         "Website-App",
@@ -65,7 +65,7 @@ export default function Intro() {
 
             <hr className='mx-1 border-t' />
 
-            <div className='w-full flex flex-col md:flex-row gap-4 pt-3 justify-between'>
+            <div className='w-full flex flex-col lg:flex-row gap-4 pt-3 justify-between'>
                 <div className='flex-1'>
                     <p className='text-sm md:text-xl'>
                         Versatile Fullstack & Mobile Developer specializing in the JavaScript ecosystem (React, Node.js, React Native) and Data Science (Python, TensorFlow).
